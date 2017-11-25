@@ -1,0 +1,37 @@
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="/winos/index.php" class="w3-bar-item w3-button"><i class="fa fa-home"></i>HOME</a>
+    <a href="/winos/full.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> FULL COLLECTION</a>
+	<a href="/winos/search.php" class="w3-bar-item w3-button"><i class="fa fa-search"></i> FIND A WINE</a>
+	<div class="w3-dropdown-hover w3-hide-small">
+		<button class="w3-button">
+		  <i class="fa fa-th"></i>WHAT'S YOUR FANCY? <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="w3-dropdown-content w3-card-4 w3-bar-block">
+		  <a href="/winos/dinner.php" class="w3-bar-item w3-button">What's for dinner?</a>
+		  <a href="/winos/under20.php" class="w3-bar-item w3-button">Top wines under $20</a>
+		  <a href="/winos/booziest.php" class="w3-bar-item w3-button">Most buzz for your buck</a>
+		</div>
+	</div>
+    <a href="/winos/vineyard.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> VINEYARDS</a>
+	<a href="/winos/region.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> REGIONS</a>
+    <a href="/winos/grape.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> VARIETALS</a>
+  </div>
+  
+    <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="/winos/full.php" class="w3-bar-item w3-button" onclick="toggleFunction()">FULL COLLECTION</a>
+    <a href="/winos/dinner.php" class="w3-bar-item w3-button" onclick="toggleFunction()">WHAT'S FOR DINNER?</a>
+	<a href="/winos/under20.php" class="w3-bar-item w3-button" onclick="toggleFunction()">TOP UNDER $20</a>
+	<a href="/winos/booziest.php" class="w3-bar-item w3-button" onclick="toggleFunction()">MOST BUZZ FOR YOUR BUCK</a>
+	<a href="/winos/vineyard.php" class="w3-bar-item w3-button" onclick="toggleFunction()">VINEYARDS</a>
+	<a href="/winos/region.php" class="w3-bar-item w3-button" onclick="toggleFunction()">REGIONS</a>
+	<a href="/winos/grape.php" class="w3-bar-item w3-button" onclick="toggleFunction()">VARIETALS</a>
+
+  </div>
+  
+</div>
